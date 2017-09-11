@@ -1,0 +1,5 @@
+
+static void (string mygel, int no)
+{
+System.Console.WriteLine($"Myglarn: {mygel} no.{no}");
+}
