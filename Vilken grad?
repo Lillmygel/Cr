@@ -1,5 +1,9 @@
 
-static void (string mygel, int no)
+static void VilkenGrad (string mygel, int no)
 {
 System.Console.WriteLine($"Myglarn: {mygel} no.{no}");
+System.Console.WriteLine("Jag gör en ändring");
 }
+string mygel = System.Console.ReadLine();
+string no = int.Parse(System.Console.ReadLine());
+VilkenGrad (mygel, no);
